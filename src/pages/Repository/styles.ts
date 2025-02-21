@@ -33,6 +33,15 @@ export const RepositoryInfo = styled.section`
     div {
       margin-left: 24px;
 
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover{
+        text-decoration: underline;
+      }
+
       strong {
         font-size: 36px;
         color: #3d3d4d;
